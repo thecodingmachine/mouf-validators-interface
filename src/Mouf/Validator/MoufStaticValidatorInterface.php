@@ -19,12 +19,7 @@ namespace Mouf\Validator;
 interface MoufStaticValidatorInterface {
 	
 	/**
-	 * Returns the title of the validator (displayed while the validator is being computed).
-	 */
-	static function getStaticValidatorTitle();
-	
-	/**
-	 * Runs the validation of the instance.
+	 * Runs the validation of the class.
 	 * Returns a MoufValidatorResult explaining the result.
 	 * 
 	 * @return MoufValidatorResult

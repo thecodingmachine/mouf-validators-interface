@@ -19,11 +19,6 @@ namespace Mouf\Validator;
 interface MoufValidatorInterface {
 	
 	/**
-	 * Returns the title of the validator (displayed while the validator is being computed).
-	 */
-	function getValidatorTitle();
-	
-	/**
 	 * Runs the validation of the instance.
 	 * Returns a MoufValidatorResult explaining the result.
 	 * 
